@@ -1,19 +1,18 @@
 ---
-title: "MICB425 Portfolio"
-author: "Ryan Kaien Nah (28632115)"
+title: "MICB425 Portfolio - Microbial Ecological Genomics: From Genomes to Biomes, Spring 2018"
+author: "Student First Name, Preferred Name, Last Name, Student ID"
 date: "version `r format(Sys.time(), '%B %d, %Y')`"
 output: 
-  html_document: 
-    toc: yes
+  html_document:
+    toc: true
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 # Module 01
+Reserve the first level headings (#) for the start of a new Module. This will help to organize your portfolio in an intuitive fashion.  
+**Note: Please edit this template to your heart's content. This is meant to be the armature upon which you build your individual portfolio. You do not need to keep this instructive text in your final portfolio, although you do need to keep module and assignment names so we can identify what is what.**
 
-## Module 01 Portfolio Check
+
+## Module 01 portfolio check
+The first of your second level headers (##) is to be used for the portfolio content checks. The Module 01 portfolio check has been built for you directly into this template, but will also be available as a stand-alone markdown document available on the MICB425 GitHub so that you know what is required in each module section in your portfolio. The completion status and comments will be filled in by the instructors during portfolio checks when your current portfolios are pulled from GitHub.
 
 * Installation check
     + Completion status:
@@ -45,26 +44,21 @@ knitr::opts_chunk$set(echo = TRUE)
 * Additional Readings
     + Completion status:
     + Comments  
-
-## Data Science Friday 
+    
+## Data science Friday  
+The remaining second level headers (##) are for separating data science Friday, regular course, and project content. In this module, you will only need to include data science Friday and regular course content; projects will come later in the course.
 
 ### Installation check
+Third level headers (###) should be used for links to assignments, evidence worksheets, problem sets, and readings, as seen here.  
+
 Use this space to include your installation screenshots.
+
+
 
 ### Portfolio repo setup
 Detail the code you used to create, initialize, and push your portfolio repo to GitHub. This will be helpful as you will need to repeat many of these steps to update your porfolio throughout the course.
 
-```{r gitsetup, eval=FALSE}
-$ mkdir MICB425_portfolio
-$ cd MICB425_portfolio
-$ git init
-$ touch ID.txt
-$ git add .
-$ git commit -m "First commit"
-$ git remote add origin https://github.com/ryankn/MICB425_portfolio
-$ git remove -v
-$ git push -u origin master
-```
+
 
 ### RMarkdown pretty PDF challenge
 Paste your code from the in-class activity of recreating the example PDF.
@@ -73,7 +67,9 @@ Paste your code from the in-class activity of recreating the example PDF.
 
 ## Origins and Earth Systems
 ### Evidence worksheet 01 
-The first thing for any assignment should link(s) to any relevant literature (which should be included as full citations in a module references section below).
+The template for the first Evidence Worksheet has been included here. The first thing for any assignment should link(s) to any relevant literature (which should be included as full citations in a module references section below).
+
+You can copy-paste in the answers you recorded when working through the evidence worksheet into this portfolio template. 
 
 As you include Evidence worksheets and Problem sets in the future, ensure that you delineate Questions/Learning Objectives/etc. by using headers that are 4th level and greater. This will still create header markings when you render (knit) the document, but will exclude these levels from the Table of Contents. That's a good thing. You don't' want to clutter the Table of Contents too much.
 
