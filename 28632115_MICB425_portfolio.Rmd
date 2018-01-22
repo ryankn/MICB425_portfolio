@@ -44,38 +44,44 @@ knitr::opts_chunk$set(echo = TRUE)
     + Comments:
 * Additional Readings
     + Completion status:
-    + Comments  
+    + Comments:  
 
 ## Data Science Friday 
 
 ### Installation check
 Use this space to include your installation screenshots.
 
+![](DS_Friday/Assignment1/Assignment1_Figure1.JPG)
+
+![](DS_Friday/Assignment1/Assignment1_Figure2.JPG)
+
+![](DS_Friday/Assignment1/Assignment1_Figure3.JPG)
+
 ### Portfolio repo setup
 Detail the code you used to create, initialize, and push your portfolio repo to GitHub. This will be helpful as you will need to repeat many of these steps to update your porfolio throughout the course.
 
 ```{r gitsetup, eval=FALSE}
-$ mkdir MICB425_portfolio
-$ cd MICB425_portfolio
-$ git init
-$ touch ID.txt
-$ git add .
-$ git commit -m "First commit"
-$ git remote add origin https://github.com/ryankn/MICB425_portfolio
-$ git remove -v
-$ git push -u origin master
+$ mkdir MICB425_portfolio #make portfolio directory within desired directory
+$ cd MICB425_portfolio #go to new directory
+$ git init #designate it as a repo
+$ touch ID.txt #create blank ID.txt file
+$ git add . #stage all files in new repo for commit
+$ git commit -m "First commit" #commit files
+$ git remote add origin https://github.com/ryankn/MICB425_portfolio #designate remote repo URL
+$ git remove -v #verify remote repo URL
+$ git push -u origin master #push local repo to remote repo
 ```
 
 ### RMarkdown pretty PDF challenge
 Paste your code from the in-class activity of recreating the example PDF.
 
-
+[Link to .Rmd file](DS_Friday/Assignment3/DS_Assignment3.Rmd)
 
 ## Origins and Earth Systems
 ### Evidence worksheet 01 
 The first thing for any assignment should link(s) to any relevant literature (which should be included as full citations in a module references section below).
 
-As you include Evidence worksheets and Problem sets in the future, ensure that you delineate Questions/Learning Objectives/etc. by using headers that are 4th level and greater. This will still create header markings when you render (knit) the document, but will exclude these levels from the Table of Contents. That's a good thing. You don't' want to clutter the Table of Contents too much.
+As you include Evidence worksheets and Problem sets in the future, ensure that you delineate Questions/Learning Objectives/etc. by using headers that are 4th level and greater. This will still create header markings when you render (knit) the document, but will exclude these levels from the Table of Contents. That's a good thing. You don't want to clutter the Table of Contents too much.
 
 [Whitman *et al* 1998](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC33863/)
 
@@ -84,8 +90,10 @@ Describe the numerical abundance of microbial life in relation to ecology and bi
 
 #### General questions
 * What were the main questions being asked?  
+What is the total number of prokaryotes and the total amount of their cellular carbon on earth?
 
 * What were the primary methodological approaches used?  
+To make calculation of such figures more plausible, the number of prokaryotes in three large habitats in which current knowledge suggests most prokaryotes reside in were examined, namely: aquatic environments, soil, and the subsurface. All numbers were used from previously published papers reporting various figures like CFU/mL counts, volume estimations, or C content. 
 
 * Summarize the main results or findings.  
 
