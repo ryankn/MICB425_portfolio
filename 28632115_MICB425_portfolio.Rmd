@@ -76,7 +76,7 @@ $ git push -u origin master #push local repo to remote repo
 ### RMarkdown pretty PDF challenge
 Paste your code from the in-class activity of recreating the example PDF.
 
-```{r prettypdf, child='DS_Assignment3.Rmd'}
+```{r prettypdf, child='DS_Assignment3.Rmd', toc=FALSE}
 ```
 
 ## Origins and Earth Systems
@@ -112,38 +112,77 @@ Describe the numerical abundance of microbial life in relation to the ecology an
 #### Specific questions:
 * What are the primary prokaryotic habitats on Earth and how do they vary with respect to their capacity to support life? Provide a breakdown of total cell abundance for each primary habitat from the tables provided in the text.  
 
+Habitat    | Abundance
+---------- | ---------
+Aquatic    | 1.161 x 10^29^
+Soil       | 2.556 x 19^29^
+Subsurface | 3.8 x 10^30^
 
 
 * What is the estimated prokaryotic cell abundance in the upper 200 m of the ocean and what fraction of this biomass is represented by marine cyanobacterium including *Prochlorococcus*? What is the significance of this ratio with respect to carbon cycling in the ocean and the atmospheric composition of the Earth?  
+3.6x10^28^ cells, at 5x10^5^ cells/mL of Cyanobacteria is 8%
 
-
+4x10^4^ cells/mL divided by 5x10^5^ cells/mL = 8%
 
 * What is the difference between an autotroph, heterotroph, and a lithotroph based on information provided in the text?  
-
-
+autotroph fix inorganic carbon e.g. CO2 into biomass, heterotroph assimilate organic carbon,
+lithotroph consumes inorganic substrates
 
 * Based on information provided in the text and your knowledge of geography what is the deepest habitat capable of supporting prokaryotic life? What is the primary limiting factor at this depth?  
+subsurface deep habitats, both terrestrial and marine
+terrestrial and marine: up to 4 km, limiting factor is temperature of 125 degrees C
+temperature changes about 22 C per km
 
+marianas trench - how deep is it? 10.9 km
 
+* Based on information provided in the text and your knowledge of geography what is the highest habitat capable of supporting prokaryotic life? What is the primary limiting factor at this height?  
 
-* Based on information provided in the text your knowledge of geography what is the highest habitat capable of supporting prokaryotic life? What is the primary limiting factor at this height?  
-
-
+mount everest - 8.8 km
+is anything really alive up in the atmosphere at 77 km? that doesn't seem likely - lack of nutrients or moisture, then there's lots of UV radiation too, sketchy. Let's say 20 km. 
 
 * Based on estimates of prokaryotic habitat limitation, what is the vertical distance of the Earth's biosphere measured in km?  
-As prokaryotes have been detected at altitudes as high as 57-77 km, it is arguable that that would be the upper boundary of the Earth's biosphere. 
+Thus the vertical distance is about 24 km from top to bottom (tip of mount everest to 4-5 km under marianas trench)
 
 * How was annual cellular production of prokaryotes described in Table 7 column four determined? (Provide an example of the calculation)  
 Annual cellular production of prokaryotes was calculated based on literature values for population size and population turnover time in days. In the following example calculation, population size is P, turnover time is T, and annual cellular production is A.  
 
 $$A=P*\frac{365}{T}$$
+3.6x10^28^ cells * 365 days / 16 turnovers = 8.2x10^29^ cells/year
 
 * What is the relationship between carbon content, carbon assimilation efficiency and turnover rates in the upper 200m of the ocean? Why does this vary with depth in the ocean and between terrestrial and marine habitats?  
+assuming carbon efficiency is 20%, so net productivity required is 4x (why not 5? confusion)
+assume C content per cell of say 10 fg/cell, which is around 20x10^-30^ Pg/cell
+multiply # of cells (3.6x10^28^ cells) by C content per cell, which comes up to about 0.72 Pg C in marine heterotrophs
+
+0.72*4 = 2.88 Pg C per year
+
+51 Pg C per year of productivity * 85% = 43 Pg C per year goes to upper 200m
+43/2.88 = 14.9 turnovers a year
+365/14.9 = 24.5 days per turnover
+
+why does this vary with depth? different production and consumption of C in different habitats
+
 Carbon assimilation efficiency and carbon content determine turnover rates in the upper 200m of the ocean. The amount of net primary productivity required to sustain prokaryotic turnover is dependent on both C assimilation efficiency and total carbon content of the population, which then sets an upper limit on turnover rates. These vary between habitats because different assimilation efficiencies and total carbon content, as well as the amount of total net primary productivity each habitat zone consumes. 
+
+also viruses - the viruses kill bugs causing turnover, and carry assessory metabolic genes that when they infect cells, supplement the various metabolic capacities of the community
 
 * How were the frequency numbers for four simultaneous mutations in shared genes determined for marine heterotrophs and marine autotrophs given an average mutation rate of 4 x 10^-7^ per DNA replication? (Provide an example of the calculation with units. Hint: cell and generation cancel out)  
 
+4x10^-7^ mutations/generation
 
+(4x10^-7^)^4^ = 2.56 x 10^-26^ mutations/generation
+
+365/16 = 22.8 turnovers per year
+
+3.1 x 10^28^ cells * 22.8 = 8.2x10^29^ cells/year
+
+8.2x10^29^ cells/year x 2.56 x 10^-26^ mutations/generation = 2.1x10^4^ mutations/year
+
+convert to hours - divide by 365x24 
+
+2.1x10^4^ / 365 / 24 = 2.4 mutations/hour
+
+1/2.4 = 0.4 hours/mutation
 
 * Given the large population size and high mutation rate of prokaryotic cells, what are the implications with respect to genetic diversity and adaptive potential? Are point mutations the only way in which microbial genomes diversify and adapt?  
 
@@ -158,4 +197,4 @@ Utilize this space to include a bibliography of any literature you want associat
 
 An example for Whitman and Wiebe (1998) has been included below.
 
-Whitman WB, Coleman DC, and Wiebe WJ. 1998. Prokaryotes: The unseen majority. Proc Natl Acad Sci USA. 95(12):6578–6583.  [PMC33863](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC33863/)
+Whitman WB, Coleman DC, and Wiebe WJ. 1998. Prokaryotes: The unseen majority. Proc Natl Acad Sci USA. 95(12):6578-6583.  [PMC33863](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC33863/)
