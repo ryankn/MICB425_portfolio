@@ -76,7 +76,8 @@ $ git push -u origin master #push local repo to remote repo
 ### RMarkdown pretty PDF challenge
 Paste your code from the in-class activity of recreating the example PDF.
 
-[Link to .Rmd file](DS_Friday/Assignment3/DS_Assignment3.Rmd)
+```{r prettypdf, child='DS_Assignment3.Rmd'}
+```
 
 ## Origins and Earth Systems
 ### Evidence worksheet 01 
