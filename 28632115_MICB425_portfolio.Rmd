@@ -79,6 +79,30 @@ Paste your code from the in-class activity of recreating the example PDF.
 ```{r prettypdf, child='DS_Assignment3.Rmd', toc=FALSE}
 ```
 
+### Saanich Metadata Exercises
+Code pasted from work for Data Science Friday on 26 Jan 18
+
+```{r metadata26jan18}
+library("tidyverse")
+
+#Data Import
+metadata <- read.table(file="DS_Friday/26Jan18/Saanich.metadata.txt", header=TRUE, row.names=1, sep="\t", na.strings="NAN")
+
+#Exercise 1
+OTU <- read.table(file="DS_Friday/26Jan18/Saanich.OTU.txt", header=TRUE, row.names=1, sep="\t", na.strings="NAN")
+
+#Exercise 2
+metadata %>% rownames_to_column('sample') %>% filter(CH4_nM >= 100, Temperature_C <= 10) %>% 
+  column_to_rownames('sample') %>% 
+  select(Depth_m,CH4_nM,Temperature_C)
+
+#Exercise 3
+metadata %>% rownames_to_column('sample') %>% 
+  select(matches("nM|sample")) %>% 
+  mutate(N2O_uM = N2O_nM/1000, Std_N2O_uM = Std_N2O_nM/1000, CH4_uM = CH4_nM/1000, Std_CH4_uM = Std_CH4_nM/1000) %>% 
+  column_to_rownames('sample')
+```
+
 ## Origins and Earth Systems
 ### Evidence worksheet 01 
 The first thing for any assignment should link(s) to any relevant literature (which should be included as full citations in a module references section below).
