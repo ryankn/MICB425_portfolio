@@ -8,8 +8,10 @@ output:
     toc: yes
 ---
 
-```{r setup, include=FALSE}
+```{r setup, include=FALSE, echo=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+knitr::read_chunk("DS_assignment20180208.R")
+knitr::read_chunk("DS_Friday/26Jan18/26Jan18_SaanichOTU.R")
 ```
 
 # Module 01
@@ -74,42 +76,28 @@ $ git push -u origin master #push local repo to remote repo
 ```
 
 ### RMarkdown pretty PDF challenge
-Paste your code from the in-class activity of recreating the example PDF.
+The following is from the activity of recreating the example PDF, with the header levels changed such that they won't appear in the table of contents.
 
-```{r prettypdf, child='DS_Assignment3.Rmd', toc=FALSE}
+```{r prettypdf, child='DS_Assignment3.Rmd'}
 ```
 
 ### Saanich Metadata Exercises
-Code pasted from work for Data Science Friday on 26 Jan 18
+R code from work for Data Science Friday on 26 Jan 18.
 
 ```{r metadata26jan18}
-library("tidyverse")
+```
 
-#Data Import
-metadata <- read.table(file="DS_Friday/26Jan18/Saanich.metadata.txt", header=TRUE, row.names=1, sep="\t", na.strings="NAN")
+### Data Science Friday Assignment Feb 16
+R code for Data Science Friday assignment due Friday 16 Feb 18.
 
-#Exercise 1
-OTU <- read.table(file="DS_Friday/26Jan18/Saanich.OTU.txt", header=TRUE, row.names=1, sep="\t", na.strings="NAN")
-
-#Exercise 2
-metadata %>% rownames_to_column('sample') %>% filter(CH4_nM >= 100, Temperature_C <= 10) %>% 
-  column_to_rownames('sample') %>% 
-  select(Depth_m,CH4_nM,Temperature_C)
-
-#Exercise 3
-metadata %>% rownames_to_column('sample') %>% 
-  select(matches("nM|sample")) %>% 
-  mutate(N2O_uM = N2O_nM/1000, Std_N2O_uM = Std_N2O_nM/1000, CH4_uM = CH4_nM/1000, Std_CH4_uM = Std_CH4_nM/1000) %>% 
-  column_to_rownames('sample')
+```{r DS_Assignment20180208} 
 ```
 
 ## Origins and Earth Systems
 ### Evidence worksheet 01 
 The first thing for any assignment should link(s) to any relevant literature (which should be included as full citations in a module references section below).
 
-As you include Evidence worksheets and Problem sets in the future, ensure that you delineate Questions/Learning Objectives/etc. by using headers that are 4th level and greater. This will still create header markings when you render (knit) the document, but will exclude these levels from the Table of Contents. That's a good thing. You don't want to clutter the Table of Contents too much.
-
-[Whitman *et al* 1998](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC33863/)
+[Whitman *et al.* 1998](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC33863/)
 
 #### Learning objectives
 Describe the numerical abundance of microbial life in relation to ecology and biogeochemistry of Earth systems. 
@@ -118,15 +106,21 @@ Describe the numerical abundance of microbial life in relation to ecology and bi
 * What were the main questions being asked?  
 What is the total number of prokaryotes and the total amount of their cellular carbon on earth?
 
+turnover time? N/P/C
+
 * What were the primary methodological approaches used?  
 To make calculation of such figures more plausible, the number of prokaryotes in three large habitats in which current knowledge suggests most prokaryotes reside in were examined, namely: aquatic environments, soil, and the subsurface. All numbers were used from previously published papers reporting various figures like CFU/mL counts, volume estimations, or C content. 
 
 * Summarize the main results or findings.  
+The amount of prokaryotic N, P, and C is roughly 60-100% of the amount in plants. 
+
+Analysis of the subsurface prokaryotic community suggests the turnover time is extremely long, on the order of []. 
 
 * Do new questions arise from the results?  
+How is the turnover time for the subsurface community so long? At that kind of turnover rate, can that still be constituted as life?
 
 * Were there any specific challenges or advantages in understanding the paper (*e.g.* did the authors provide sufficient background information to understand experimental logic, were methods explained adequately, were any specific assumptions made, were conclusions justified based on the evidence, were the figures or tables useful and easy to understand)?  
-
+Terminology, what the units actually mean, was hard
 
 
 ### Problem set 01
@@ -215,10 +209,13 @@ convert to hours - divide by 365x24
 * What relationships can be inferred between prokaryotic abundance, diversity, and metabolic potential based on the information provided in the text? 
 
 
+```{r evidenceworksheet_02, child='Module_01/Evidence_worksheet_02.Rmd'}
+```
+
+```{r problemset_02, child='Module_01/Problem_set_02.Rmd'}
+```
 
 ### Module 01 references
 Utilize this space to include a bibliography of any literature you want associated with this module. We recommend keeping this as the final header under each module.
 
-An example for Whitman and Wiebe (1998) has been included below.
-
-Whitman WB, Coleman DC, and Wiebe WJ. 1998. Prokaryotes: The unseen majority. Proc Natl Acad Sci USA. 95(12):6578-6583.  [PMC33863](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC33863/)
+**Whitman WB, Coleman DC, Wiebe WJ**. 1998. Prokaryotes: The unseen majority. Proc Natl Acad Sci U S A 95:6578-6583. [PMC33863](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC33863/)
