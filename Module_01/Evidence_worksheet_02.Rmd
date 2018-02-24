@@ -14,9 +14,7 @@ Comment on the emergence of microbial life and the evolution of Earth systems.
     + 4.6 billion years ago  
     Formation of the solar system and Earth. Currently, Earth is a large molten rock.
     + 4.5 billion years ago  
-    Formation of the moon, giving Earth spin, tilt, day/night cycles, seasons
-    + 4.2 billion years ago  
-    Darwinian threshold
+    Formation of the moon, giving Earth spin, tilt, day/night cycles, and seasons. CO2 buildup leads to beginning of greenhouse effect. 
     + 4.1 billion years ago  
     First evidence of life found in graphite within zircons
     + 3.8 billion years ago  
@@ -25,20 +23,28 @@ Comment on the emergence of microbial life and the evolution of Earth systems.
     Photosynthesis
     + 3.5 billion years ago  
     Cyanobacteria, microbial life on land
-    + 3.0 billion years ago  
-    First global glaciation event
+    + 2.9 billion years ago  
+    Pongola glaciation, first global glaciation event
     + 2.7 billion years ago  
     Great oxidation event, red beds
-    + 2.2 billion years ago  
-    First snowball earth (glaciation event)
+    + 2.4 billion years ago  
+    Huronian glaciation, first Snowball Earth
     + 2.1 billion years ago
-    Appearance of eukaryotes, multicellular life, endosymbiosis, 
+    Appearance of eukaryotes, multicellular life, endosymbiosis
     + 1.3 billion years ago
     
-    + 550,000 years ago
+    + 700 million years ago
+    Cryogenian glaciation, second Snowball Earth
+    + 550 million years ago
     Cambrian explosion, complex multicellular life, emergence of animals
-    + 400,000 years ago
+    + 485 million years ago
+    Land animals appear
+    + 440 million years ago
+    Ordovician-Silurian extinction events
+    + 400 million years ago
     Land plants emerge, followed by a period of gigantism because of high oxygen atmosphere
+    + 370 million years ago
+    Late Devonian extinction(s)
     + 200,000 years ago
     First humans 
 

@@ -24,7 +24,7 @@ knitr::read_chunk("DS_Friday/26Jan18/26Jan18_SaanichOTU.R")
 * Portfolio repo setup
     + Completion status: 
     + Comments:
-* RMarkdown Pretty PDF Challenge
+* R Markdown Pretty PDF Challenge
     + Completion status:
     + Comments:
 * Evidence worksheet_01
@@ -61,7 +61,7 @@ Use this space to include your installation screenshots.
 ![](DS_Friday/Assignment1/Assignment1_Figure3.JPG)
 
 ### Portfolio repo setup
-Detail the code you used to create, initialize, and push your portfolio repo to GitHub. This will be helpful as you will need to repeat many of these steps to update your porfolio throughout the course.
+Detail the code you used to create, initialize, and push your portfolio repo to GitHub. This will be helpful as you will need to repeat many of these steps to update your portfolio throughout the course.
 
 ```{r gitsetup, eval=FALSE}
 $ mkdir MICB425_portfolio #make portfolio directory within desired directory
@@ -104,23 +104,39 @@ Describe the numerical abundance of microbial life in relation to ecology and bi
 
 #### General questions
 * What were the main questions being asked?  
-What is the total number of prokaryotes and the total amount of their cellular carbon on earth?
-
-turnover time? N/P/C
+What is the total number of prokaryotes and the total amount of their cellular carbon, nitrogen, and phosphorus on Earth? How are prokaryotes divided up among various large habitats on Earth? What is the turnover time of prokaryotes in these habitats? What effect does this have on prokaryotic genetic diversity? 
 
 * What were the primary methodological approaches used?  
 To make calculation of such figures more plausible, the number of prokaryotes in three large habitats in which current knowledge suggests most prokaryotes reside in were examined, namely: aquatic environments, soil, and the subsurface. All numbers were used from previously published papers reporting various figures like CFU/mL counts, volume estimations, or C content. 
 
 * Summarize the main results or findings.  
-The amount of prokaryotic N, P, and C is roughly 60-100% of the amount in plants. 
 
-Analysis of the subsurface prokaryotic community suggests the turnover time is extremely long, on the order of []. 
+Environment            | No. of prokaryotic cells, x 10^28^ | Pg of C in prokaryotes
+---------------------- | ---------------------------------- | ----------------------
+Aquatic habitats       | 12      | 2.2
+Oceanic subsurface     | 355     | 303
+Soil                   | 26      | 26
+Terrestrial subsurface | 25-250  | 22-215
+                Total  | 415-640 | 353-546
+
+  The amount of prokaryotic C is roughly 60-100% of the amount in plants, and that of prokaryotic N and P is likely an entire order of magnitude or two larger than that in plants, around 85–130 Pg and 9–14 Pg for N and P, respectively. 
+
+Habitat                           | No. of prokaryotic cells | Turnover time, days | Cells/yr x 10^29^
+--------------------------------- | ------------------------ | --------------------| -------------------
+Marine heterotrophs - above 200 m | 3.6 x 10^28^             | 16                  | 8.2
+Marine heterotrophs - below 200 m | 8.2 x 10^28^             | 300                 | 1.1
+Marine autotrophs                 | 2.9 x 10^27^             | 1.5                 | 7.1
+Soil                              | 2.6 x 10^29^             | 900                 | 1.0
+Subsurface                        | 4.9 x 10^30^             | 5.5 x 10^5^         | 0.03
+Domestic mammals                  | 4.3 x 10^24^             | 1                   | 0.02
+
+  As a result of the large number of cells being produced on a regular basis and combined with their per-gene mutation rate of 4 x 10^-7^, prokaryotes are capable of incredible genetic diversity. 
 
 * Do new questions arise from the results?  
-How is the turnover time for the subsurface community so long? At that kind of turnover rate, can that still be constituted as life?
+How is the turnover time for the subsurface community so long? At that kind of turnover rate, can that still be constituted as life? Are definitions of prokaryotic species compatible with the knowledge of the rapid mutation/evolution rate of prokaryotes?
 
 * Were there any specific challenges or advantages in understanding the paper (*e.g.* did the authors provide sufficient background information to understand experimental logic, were methods explained adequately, were any specific assumptions made, were conclusions justified based on the evidence, were the figures or tables useful and easy to understand)?  
-Terminology, what the units actually mean, was hard
+A myriad of assumptions had to be made, not all of which completely made sense. As one example in relation to the subsurface, the number derived for the number of prokaryotic cells was derived by extrapolating from data collected from the shallower depths of the subsurface, and thus may not be entirely accurate. Additionally, as someone who does not regularly work with numbers of such magnitude, discerning the order of magnitude of fg or Pg masses was challenging. 
 
 
 ### Problem set 01
@@ -131,7 +147,7 @@ Describe the numerical abundance of microbial life in relation to the ecology an
 * What are the primary prokaryotic habitats on Earth and how do they vary with respect to their capacity to support life? Provide a breakdown of total cell abundance for each primary habitat from the tables provided in the text.  
 
 Habitat    | Abundance
----------- | ---------
+---------- | --------------
 Aquatic    | 1.161 x 10^29^
 Soil       | 2.556 x 19^29^
 Subsurface | 3.8 x 10^30^
@@ -140,74 +156,74 @@ Subsurface | 3.8 x 10^30^
 * What is the estimated prokaryotic cell abundance in the upper 200 m of the ocean and what fraction of this biomass is represented by marine cyanobacterium including *Prochlorococcus*? What is the significance of this ratio with respect to carbon cycling in the ocean and the atmospheric composition of the Earth?  
 3.6x10^28^ cells, at 5x10^5^ cells/mL of Cyanobacteria is 8%
 
-4x10^4^ cells/mL divided by 5x10^5^ cells/mL = 8%
+  4x10^4^ cells/mL divided by 5x10^5^ cells/mL = 8%
 
 * What is the difference between an autotroph, heterotroph, and a lithotroph based on information provided in the text?  
-autotroph fix inorganic carbon e.g. CO2 into biomass, heterotroph assimilate organic carbon,
-lithotroph consumes inorganic substrates
+autotrophs fix inorganic carbon e.g. CO~2~ into biomass, heterotrophs assimilate organic carbon,
+lithotrophs consume inorganic substrates
 
 * Based on information provided in the text and your knowledge of geography what is the deepest habitat capable of supporting prokaryotic life? What is the primary limiting factor at this depth?  
 subsurface deep habitats, both terrestrial and marine
 terrestrial and marine: up to 4 km, limiting factor is temperature of 125 degrees C
 temperature changes about 22 C per km
 
-marianas trench - how deep is it? 10.9 km
+  Mariana trench - how deep is it? 10.9 km
 
 * Based on information provided in the text and your knowledge of geography what is the highest habitat capable of supporting prokaryotic life? What is the primary limiting factor at this height?  
 
-mount everest - 8.8 km
-is anything really alive up in the atmosphere at 77 km? that doesn't seem likely - lack of nutrients or moisture, then there's lots of UV radiation too, sketchy. Let's say 20 km. 
+  mount Everest - 8.8 km  
+  is anything really alive up in the atmosphere at 77 km? that doesn't seem likely - lack of nutrients or moisture, then there's lots of UV radiation too, sketchy. Let's say 20 km. 
 
 * Based on estimates of prokaryotic habitat limitation, what is the vertical distance of the Earth's biosphere measured in km?  
-Thus the vertical distance is about 24 km from top to bottom (tip of mount everest to 4-5 km under marianas trench)
+Thus the vertical distance is about 24 km from top to bottom (tip of mount Everest to 4-5 km under Mariana trench)
 
 * How was annual cellular production of prokaryotes described in Table 7 column four determined? (Provide an example of the calculation)  
 Annual cellular production of prokaryotes was calculated based on literature values for population size and population turnover time in days. In the following example calculation, population size is P, turnover time is T, and annual cellular production is A.  
 
 $$A=P*\frac{365}{T}$$
-3.6x10^28^ cells * 365 days / 16 turnovers = 8.2x10^29^ cells/year
+  3.6x10^28^ cells * 365 days / 16 turnovers = 8.2x10^29^ cells/year
 
 * What is the relationship between carbon content, carbon assimilation efficiency and turnover rates in the upper 200m of the ocean? Why does this vary with depth in the ocean and between terrestrial and marine habitats?  
 assuming carbon efficiency is 20%, so net productivity required is 4x (why not 5? confusion)
 assume C content per cell of say 10 fg/cell, which is around 20x10^-30^ Pg/cell
 multiply # of cells (3.6x10^28^ cells) by C content per cell, which comes up to about 0.72 Pg C in marine heterotrophs
 
-0.72*4 = 2.88 Pg C per year
+  0.72*4 = 2.88 Pg C per year
 
-51 Pg C per year of productivity * 85% = 43 Pg C per year goes to upper 200m
-43/2.88 = 14.9 turnovers a year
-365/14.9 = 24.5 days per turnover
+  51 Pg C per year of productivity * 85% = 43 Pg C per year goes to upper 200m
+  43/2.88 = 14.9 turnovers a year
+  365/14.9 = 24.5 days per turnover
 
-why does this vary with depth? different production and consumption of C in different habitats
+  why does this vary with depth? different production and consumption of C in different habitats
 
-Carbon assimilation efficiency and carbon content determine turnover rates in the upper 200m of the ocean. The amount of net primary productivity required to sustain prokaryotic turnover is dependent on both C assimilation efficiency and total carbon content of the population, which then sets an upper limit on turnover rates. These vary between habitats because different assimilation efficiencies and total carbon content, as well as the amount of total net primary productivity each habitat zone consumes. 
+  Carbon assimilation efficiency and carbon content determine turnover rates in the upper 200m of the ocean. The amount of net primary productivity required to sustain prokaryotic turnover is dependent on both C assimilation efficiency and total carbon content of the population, which then sets an upper limit on turnover rates. These vary between habitats because different assimilation efficiencies and total carbon content, as well as the amount of total net primary productivity each habitat zone consumes. 
 
-also viruses - the viruses kill bugs causing turnover, and carry assessory metabolic genes that when they infect cells, supplement the various metabolic capacities of the community
+  also viruses - the viruses kill bugs causing turnover, and carry assessory metabolic genes that when they infect cells, supplement the various metabolic capacities of the community
 
 * How were the frequency numbers for four simultaneous mutations in shared genes determined for marine heterotrophs and marine autotrophs given an average mutation rate of 4 x 10^-7^ per DNA replication? (Provide an example of the calculation with units. Hint: cell and generation cancel out)  
 
-4x10^-7^ mutations/generation
+  4x10^-7^ mutations/generation
 
-(4x10^-7^)^4^ = 2.56 x 10^-26^ mutations/generation
+  (4x10^-7^)^4^ = 2.56 x 10^-26^ mutations/generation
+  
+  365/16 = 22.8 turnovers per year
 
-365/16 = 22.8 turnovers per year
+  3.1 x 10^28^ cells * 22.8 = 8.2x10^29^ cells/year
 
-3.1 x 10^28^ cells * 22.8 = 8.2x10^29^ cells/year
+  8.2x10^29^ cells/year x 2.56 x 10^-26^ mutations/generation = 2.1x10^4^ mutations/year
 
-8.2x10^29^ cells/year x 2.56 x 10^-26^ mutations/generation = 2.1x10^4^ mutations/year
+  convert to hours - divide by 365x24 
 
-convert to hours - divide by 365x24 
+  2.1x10^4^ / 365 / 24 = 2.4 mutations/hour
 
-2.1x10^4^ / 365 / 24 = 2.4 mutations/hour
-
-1/2.4 = 0.4 hours/mutation
+  1/2.4 = 0.4 hours/mutation
 
 * Given the large population size and high mutation rate of prokaryotic cells, what are the implications with respect to genetic diversity and adaptive potential? Are point mutations the only way in which microbial genomes diversify and adapt?  
-
+As a result of their large population size and high mutation rate, prokaryotes are able to very rapidly adapt to a niche, allowing for great genetic diversity. In addition to this, point mutations aren't the only way microbial genomes can adapt - horizontal gene transfer as a result of a variety of causes is a major driving force behind prokaryotic genome diversification as well.   
 
 
 * What relationships can be inferred between prokaryotic abundance, diversity, and metabolic potential based on the information provided in the text? 
-
+The sheer abundance of prokaryotic life lends itself to great genetic diversity,  and this diversity too leads to wide-ranging metabolic capabilities.   
 
 ```{r evidenceworksheet_02, child='Module_01/Evidence_worksheet_02.Rmd'}
 ```
@@ -215,7 +231,32 @@ convert to hours - divide by 365x24
 ```{r problemset_02, child='Module_01/Problem_set_02.Rmd'}
 ```
 
+```{r writingassignment_01, child='Module_01/Writing_assignment_01.Rmd'}
+```
+
 ### Module 01 references
 Utilize this space to include a bibliography of any literature you want associated with this module. We recommend keeping this as the final header under each module.
 
-**Whitman WB, Coleman DC, Wiebe WJ**. 1998. Prokaryotes: The unseen majority. Proc Natl Acad Sci U S A 95:6578-6583. [PMC33863](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC33863/)
+**Whitman WB, Coleman DC, Wiebe WJ**. 1998. Prokaryotes: The unseen majority. *Proc Natl Acad Sci U S A* 95:6578-6583. [PMC33863](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC33863/)
+
+**Nisbet EG, Sleep NH.** 2003. The habitat and nature of early life. *Nature* 409:1083-1091.  
+
+**Canfield DE, Glazer AE, Falkowski PG.** 2010. The Evolution and Future of Earth’s Nitrogen Cycle. *Science* 330:192-196.  
+
+**Rockström J, Steffen W, Noone K, Persson Å, Chapin FS, Lambin EF, Lenton TM, Scheffer M, Folke C, Schellnhuber HJ, Nykvist B, de Wit CA, Hughes T, van der Leeuw S, Rodhe H, Sörlin S, Snyder PK, Costanza R, Svedin U, Falkenmark M, Karlberg L, Corell RW, Fabry VJ, Hansen J, Walker B, Liverman D, Richardson K, Crutzen P, Foley JA.** 2009. A safe operating space for humanity. *Nature* 461:472-475.  
+
+**Schrag DP.** 2012. Geobiology of the Anthropocene, p 425-436. *In* Knoll AH, Canfield DE, Konhauser KO (ed), Fundamentals of Geobiology, 1st ed. Blackwell Publishing Ltd, Oxford, United Kingdom.  
+
+**Falkowski PG, Fenchel T, Delong EF.** 2008. The Microbial Engines That Drive Earth’s Biogeochemical Cycles. *Science* 320:1034-1039.  
+
+**Kasting JF, Siefert JL.** 2002. Life and the Evolution of Earth’s Atmosphere. *Science* 296:1066-1068. 
+
+# Module 02
+
+## Module 02 Portfolio Check
+
+## Data Science Friday
+
+## Origins and Earth Systems
+
+##
