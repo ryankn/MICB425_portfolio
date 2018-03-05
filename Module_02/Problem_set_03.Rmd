@@ -11,18 +11,55 @@ Specific emphasis should be placed on the process used to find the answer. Be as
 
 #### Specific Questions:
 * How many prokaryotic divisions have been described and how many have no cultured representatives (microbial dark matter)?
-In 1997, 33 divisions were described with at least 10 without any cultivated representatives [(Pace et al. 1997)](http://science.sciencemag.org/content/276/5313/734.full)  
+In 1997, 33 divisions were described with at least 10 without any cultivated representatives [(Pace et al. 1997)](http://science.sciencemag.org/content/276/5313/734.full). In 2016, ~89 bacterial phyla and ~20 archaeal phyla via small 16S rRNA databases. But there could be up to 1500 bacterial phyla as there are microbes that live in the "shadow biosphere". As of 2003, about half of the 52 identified major phyla had cultivated representatives, probably far more now.  
 
 * How many metagenome sequencing projects are currently available in the public domain and what types of environments are they sourced from?
-  
+How many? a lot - hundreds of thousands, 110217 on EBI database (not all projects are in public repos) 
+Sediments, soil, gut, aquatic, esp those where it's hard to culture communities in lab settings
 
 * What types of on-line resources are available for warehousing and/or analyzing environmental sequence information (provide names, URLS and applications)?  
-  
+Shotgun Metagenomics
+Assembly - EULER
+Binning - S-GCOM
+Annotation - KEGG
+Analysis Pipelines - Megan 5
+Warehousing - IMG/M, MG-RAST, NLB (NCBI), EBI
+
+Marker Gene Metagenomics
+Standalone Software - OTUbase
+Analysis Pipelines - SILVA
+Denoising - AmpliconNoise
+Databases - Ribosomal Database Project (RDP)
+
+SILVA and RDP are gold standards
 
 * What is the difference between phylogenetic and functional gene anchors and how can they be used in metagenome analysis?   
-  
+Phylogenetic gene anchors are marker genes which slowly evolve, vertically transferred and not horizontally transferred through HGT. Need to typically be single-copy, so they're not paralogous. 16S are multi-copy but all identical so it's okay. Protein-encoding genes are ideally single-copy because gene duplications tend to lead to problems. Functional genes represent/are associated with specific functions (e.g. methanogenesis), but don't tend to be as good for phylogenetic identification because of HGT and more rapid vertical evolution. 
+
+Phylogenetic 
+- vertical gene transfer
+- carry phylogenetic information allowing tree reconstruction
+- taxonomic
+- ideally single-copy
+
+Functional
+- more horizontal gene transfer
+- identify specific biogeochemical functions associated with measurable effects
+- not as useful for phylogenetic reconstruction
 
 * What is metagenomic sequence binning? What types of algorithmic approaches are used to produce sequence bins? What are some risks and opportunities associated with using sequence bins for metabolic reconstruction of uncultivated microorganisms?  
-  
+Process of grouping sequences that come from a single genome
+Types of algorithms:
+1. Align sequences to database
+2. Group to each other based on DNA characteristic: GC content, codon usage
+
+Ricks and Opportunities in binning:
+Risks:
+- incomplete coverage of genome sequence (working with partial data)
+- contamination from different sequences
 
 * Is there an alternative to metagenomic shotgun sequencing that can be used to access the metabolic potential of uncultivated microorganisms? What are some risks and opportunities associated with this alternative?  
+- functional screens for biogeochemical properties
+- 3rd gen seq 
+- single-cell sequencing
+- FISH probing (fluorescent *in situ* hybridization)

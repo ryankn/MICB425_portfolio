@@ -1,0 +1,50 @@
+name,characteristics,population,sample1,sample2,sample3,sample4
+rigoa_maroon,maroon rigoa wine gum,2,0,1,0,0
+rigoa_yellow,yellow rigoa wine gum,1,1,0,0,0
+rigoa_transluc,transluc rigoa wine gum,2,1,1,0,0
+rigoa_orange,orange rigoa wine gum,1,0,1,0,0
+rigoa_brown,brown rigoa wine gum,1,0,1,0,0
+lego_blusqr,blue 2x2 lego,1,1,1,0,0
+lego_blurect,blue 1x2 lego,3,0,0,1,1
+lego_grnrect,green 1x2 lego,2,1,0,0,1
+lego_yelsqr,yellow 2x2 lego,1,0,0,0,0
+lego_yelrect,yellow 1x2 lego,4,0,0,0,1
+lego_pinksqr,pink 2x2 lego,1,0,0,0,0
+lego_pinkrect,pink 1x2 lego,6,0,0,0,2
+drop_yellow,yellow spherical gumdrop,4,0,1,1,1
+drop_orange,orange spherical gumdrop,5,4,0,0,1
+drop_red,red spherical gumdrop,7,3,2,0,2
+drop_green,green spherical gumdrop,5,1,1,0,2
+drop_brown,brown spherical gumdrop,3,0,2,0,0
+bear_green,green gummy bear,17,5,3,3,4
+bear_orange,orange gummy bear,15,4,7,1,3
+bear_red,red gummy bear,11,1,3,1,1
+bear_transluc,translucent gummy bear,14,5,2,1,3
+bear_yellow,yellow gummy bear,17,2,5,2,5
+bear_pink,pink gummy bear,17,1,9,1,1
+skit_green,green skittle,45,8,8,1,3
+skit_red,red skittle,43,6,10,6,3
+skit_brown,brown skittle,37,1,5,9,6
+skit_yellow,yellow skittle,35,4,7,4,11
+skit_orange,orange skittle,37,8,5,5,8
+mnm_green,green M and M,24,3,5,5,2
+mnm_red,red M and M,28,11,5,6,4
+mnm_blue,blue M and M,39,8,9,7,5
+mnm_brown,brown M and M,30,3,7,7,4
+mnm_yellow,yellow M and M,32,3,9,8,5
+mnm_orange,orange M and M,65,13,16,6,9
+mike_red,red Mike and Ikes,41,8,5,4,15
+mike_green,green Mike and Ikes,39,6,8,6,8
+mike_pink,pink Mike and Ikes,44,6,10,7,7
+mike_yellow,yellow Mike and Ikes,45,4,6,3,7
+mike_orange,orange Mike and Ikes,30,3,6,6,8
+macrophage,sugar-covered octopus-shaped multi-coloured gummy,6,2,1,0,0
+swirl_blue,blue sugar-covered swirl,2,2,0,0,0
+swirl_red,red sugar-covered swirl,1,0,0,0,0
+watermelon,red white green fruit-shaped,1,1,0,0,0
+kisses,foil-wrapped chocolate,16,5,7,0,3
+snake,thin long red candy,13,3,3,0,4
+bottle,two-colour sugar-covered gummy,3,0,2,1,0
+hock,translucent oval,1,0,1,0,0
+port,translucent diamond,1,0,1,0,0
+fish,red green fish,1,0,0,0,0

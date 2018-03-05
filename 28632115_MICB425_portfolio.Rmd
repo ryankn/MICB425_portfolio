@@ -231,10 +231,13 @@ The sheer abundance of prokaryotic life lends itself to great genetic diversity,
 ```{r problemset_02, child='Module_01/Problem_set_02.Rmd'}
 ```
 
+### Evidence Worksheet 03
+On one of the 3 papers for debate - Rockstrom, evidence for anthropocene, safe operating space for humanity
+
 ```{r writingassignment_01, child='Module_01/Writing_assignment_01.Rmd'}
 ```
 
-### Module 01 references
+## Module 01 references
 Utilize this space to include a bibliography of any literature you want associated with this module. We recommend keeping this as the final header under each module.
 
 **Whitman WB, Coleman DC, Wiebe WJ**. 1998. Prokaryotes: The unseen majority. *Proc Natl Acad Sci U S A* 95:6578-6583. [PMC33863](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC33863/)
@@ -255,8 +258,31 @@ Utilize this space to include a bibliography of any literature you want associat
 
 ## Module 02 Portfolio Check
 
-## Data Science Friday
+* Problem Set_03
+    + Completion status:
+    + Comments:
+* Evidence worksheet_04
+    + Completion status:
+    + Comments:
 
-## Origins and Earth Systems
+## Remapping the Body of the World
 
-##
+```{r problemset_03, child='Module_02/Problem_set_03.Rmd'}
+```
+
+## Module 02 References
+
+# Module 03
+
+## Module 03 Portfolio Check
+
+* Problem Set_04
+    + Completion status:
+    + Comments:
+
+## Microbial Species Concepts
+
+```{r problemset_04, child='Module_03/Problem_set_04.Rmd'}
+```
+
+## Module 03 References
