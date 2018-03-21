@@ -16,38 +16,44 @@ knitr::read_chunk("DS_Friday/26Jan18/26Jan18_SaanichOTU.R")
 
 # Module 01
 
-## Module 01 Portfolio Check
+## Module 01 Portfolio Content
 
-* Installation check
-    + Completion status:
-    + Comments:
-* Portfolio repo setup
-    + Completion status: 
-    + Comments:
-* R Markdown Pretty PDF Challenge
-    + Completion status:
-    + Comments:
 * Evidence worksheet_01
     + Completion status:
-    + Comments:
+    + Comments: Expand main results summary
 * Evidence worksheet_02
-    + Completion status:
+    + Completion status: X
     + Comments:
 * Evidence worksheet_03
     + Completion status:
     + Comments:
 * Problem Set_01
-    + Completion status:
+    + Completion status: X
     + Comments:
 * Problem Set_02
     + Completion status:
-    + Comments:
+    + Comments: Incomplete
 * Writing assessment_01
     + Completion status:
     + Comments:
 * Additional Readings
     + Completion status:
-    + Comments:  
+    + Comments  
+
+### Data Science
+
+* Installation check
+    + Completion status: X
+    + Comments:
+* Portfolio repo setup
+    + Completion status: X
+    + Comments:
+* RMarkdown Pretty PDF Challenge
+    + Completion status: X
+    + Comments:
+* ggplot
+    + Completion status: X
+    + Comments:
 
 ## Data Science Friday 
 
@@ -256,14 +262,19 @@ Utilize this space to include a bibliography of any literature you want associat
 
 # Module 02
 
-## Module 02 Portfolio Check
+## Module 02 Portfolio Content
 
-* Problem Set_03
-    + Completion status:
-    + Comments:
 * Evidence worksheet_04
     + Completion status:
     + Comments:
+* Problem Set_03
+    + Completion status:
+    + Comments:
+* Writing assessment_02
+    + CANCELED
+* Additional Readings
+    + Completion status:
+    + Comments 
 
 ## Remapping the Body of the World
 
@@ -276,13 +287,48 @@ Utilize this space to include a bibliography of any literature you want associat
 
 ## Module 03 Portfolio Check
 
-* Problem Set_04
+* Evidence worksheet_05
     + Completion status:
     + Comments:
+* Problem set_04
+    + Completion status:
+    + Comments:
+* Writing Assessment_03
+    + Completion status:
+    + Comments:
+* Additional Readings
+    + Completion status:
+    + Comments 
+
+### Project 1
+
+* CATME account setup and survey
+    + Completion status: 
+    + Comments: 
+* CATME interim group assessment
+    + Completion status: 
+    + Comments:
+* Project 1
+    + Report (80%): 
+    + Participation (20%):
 
 ## Microbial Species Concepts
 
 ```{r problemset_04, child='Module_03/Problem_set_04.Rmd'}
 ```
 
+## Project 1
+
 ## Module 03 References
+    
+# Module 04
+
+## Module 04 Portfolio Content
+### Project 2
+
+* CATME final group assessment
+    + Completion status: 
+    + Comments:
+* Project 2
+    + Report (80%): 
+    + Participation (20%):

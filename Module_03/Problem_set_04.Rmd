@@ -6,7 +6,7 @@ output: html_document
 editor_options: 
   chunk_output_type: console
 ---
-### Problem set_04 “Fine-scale phylogenetic architecture”
+### Problem set_04 "Fine-scale phylogenetic architecture"
 #### Learning objectives: 
 
 * Gain experience estimating diversity within a hypothetical microbial community
@@ -18,7 +18,7 @@ In class Day 1:
 1. Define and describe species within your group's "microbial" community.
 2. Count and record individuals within your defined species groups.
 3. Remix all species together to reform the original community.
-4. Each person in your group takes a random sample of the community (*i.e.* devide up the candy).
+4. Each person in your group takes a random sample of the community (*i.e.* divide up the candy).
 
 Assignment:
 
@@ -114,7 +114,7 @@ for(i in 1:length(randomsample_sample3)) {
     cum_sample3$init[rownum] = 1 # indicate visited, increment running count
     collectcurve_sample3$y[i] = collectcurve_sample3$y[i-1]+1
   } else if (cum_sample3$init[rownum] == 1 && i > 1) {
-    collectcurve_sample3$y[i] = collectcurve_sample3$y[i-1] # do not increment count
+    collectcurve_sample3$y[i] = collectcurve_sample3$y[i-1] # do not increment count if already visited
   } else {
     collectcurve_sample3$y[i] = 1 #if i = 1 then set count to 1
   }
@@ -212,6 +212,7 @@ These values roughly match my previous calculations.
 If you are stuck on some of these final questions, reading the [Kunin et al. 2010](https://www.ncbi.nlm.nih.gov/pubmed/19725865) and [Lundin et al. 2012](https://www.ncbi.nlm.nih.gov/pubmed/23760801) papers may provide helpful insights. 
 
 * How does the measure of diversity depend on the definition of species in your samples?
+Depending on how you define species, the number of species you will end up with will differ. And as a result, measured Simpson Reciprocal Indices or chao1 values will differ substantially, and the shape of your collector's curve will differ as well. 
 * Can you think of alternative ways to cluster or bin your data that might change the observed number of species?  
 For one, not binning them separately by colour would greatly reduce the number of observed species. It was realized after data tabulation that the M&Ms were present in both Dark and non-Dark varieties, and having split up the M&Ms into both those categories would have increased observed species number.
 * How might different sequencing technologies influence observed diversity in a sample?
