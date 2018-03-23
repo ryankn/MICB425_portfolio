@@ -211,8 +211,9 @@ These values roughly match my previous calculations.
 #### Part 5: Concluding activity
 If you are stuck on some of these final questions, reading the [Kunin et al. 2010](https://www.ncbi.nlm.nih.gov/pubmed/19725865) and [Lundin et al. 2012](https://www.ncbi.nlm.nih.gov/pubmed/23760801) papers may provide helpful insights. 
 
-* How does the measure of diversity depend on the definition of species in your samples?
-Depending on how you define species, the number of species you will end up with will differ. And as a result, measured Simpson Reciprocal Indices or chao1 values will differ substantially, and the shape of your collector's curve will differ as well. 
+* How does the measure of diversity depend on the definition of species in your samples?  
+Depending on how you define species, the number of species you will end up with will differ. And as a result, measured Simpson Reciprocal Indices or chao1 values will differ substantially, and the shape of your collector's curve will differ as well.  
 * Can you think of alternative ways to cluster or bin your data that might change the observed number of species?  
 For one, not binning them separately by colour would greatly reduce the number of observed species. It was realized after data tabulation that the M&Ms were present in both Dark and non-Dark varieties, and having split up the M&Ms into both those categories would have increased observed species number.
-* How might different sequencing technologies influence observed diversity in a sample?
+* How might different sequencing technologies influence observed diversity in a sample?  
+Different sequencing technologies have different error rates and types. Illumina error rates are higher, and tend to show more base substitution errors. Other sequencing technologies such as Sanger or PacBio tend to have more indels. With higher error rates comes greater identified diversity because any single "real" sequence will generate additional erroneous sequences. Additionally, even within a specific sequencing technology, different methods of library preparation, sample processing, not to mention differing computational methods required to handle data from different sequencing platforms, all of these could possibly effect observed diversity.

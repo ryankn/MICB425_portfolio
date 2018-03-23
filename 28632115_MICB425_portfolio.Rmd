@@ -38,7 +38,7 @@ knitr::read_chunk("DS_Friday/26Jan18/26Jan18_SaanichOTU.R")
     + Comments:
 * Additional Readings
     + Completion status:
-    + Comments  
+    + Comments:  
 
 ### Data Science
 
@@ -143,7 +143,6 @@ How is the turnover time for the subsurface community so long? At that kind of t
 
 * Were there any specific challenges or advantages in understanding the paper (*e.g.* did the authors provide sufficient background information to understand experimental logic, were methods explained adequately, were any specific assumptions made, were conclusions justified based on the evidence, were the figures or tables useful and easy to understand)?  
 A myriad of assumptions had to be made, not all of which completely made sense. As one example in relation to the subsurface, the number derived for the number of prokaryotic cells was derived by extrapolating from data collected from the shallower depths of the subsurface, and thus may not be entirely accurate. Additionally, as someone who does not regularly work with numbers of such magnitude, discerning the order of magnitude of fg or Pg masses was challenging. 
-
 
 ### Problem set 01
 #### Learning objectives: 
@@ -274,18 +273,21 @@ Utilize this space to include a bibliography of any literature you want associat
     + CANCELED
 * Additional Readings
     + Completion status:
-    + Comments 
+    + Comments:
 
 ## Remapping the Body of the World
 
 ```{r problemset_03, child='Module_02/Problem_set_03.Rmd'}
 ```
 
+```{r evidenceworksheet_04, child='Module_02/Evidence_worksheet_04.Rmd'}
+```
+
 ## Module 02 References
 
 # Module 03
 
-## Module 03 Portfolio Check
+## Module 03 Portfolio Content
 
 * Evidence worksheet_05
     + Completion status:
@@ -316,6 +318,10 @@ Utilize this space to include a bibliography of any literature you want associat
 
 ```{r problemset_04, child='Module_03/Problem_set_04.Rmd'}
 ```
+
+```{r evidenceworksheet_05, child='Module_03/Evidence_worksheet_05.Rmd'}
+```
+
 
 ## Project 1
 
