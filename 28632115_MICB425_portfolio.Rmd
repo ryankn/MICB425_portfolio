@@ -6,6 +6,8 @@ output:
   html_document: 
     mathjax: default
     toc: yes
+    toc_float:
+      collapsed: no
 ---
 
 ```{r setup, include=FALSE, echo=FALSE}
