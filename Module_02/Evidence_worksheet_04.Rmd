@@ -8,7 +8,7 @@ output:
   html_document: default
 ---
 
-### Evidence Worksheet for "Bacterial Rhodopsin Gene Expression"
+### Evidence Worksheet 04 "Bacterial Rhodopsin Gene Expression"
 
 #### Learning Objectives
 *	Discuss the relationship between microbial community structure and metabolic diversity

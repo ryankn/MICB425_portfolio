@@ -19,26 +19,26 @@ knitr::read_chunk("DS_Friday/26Jan18/26Jan18_SaanichOTU.R")
 ## Module 01 Portfolio Content
 
 * Evidence worksheet_01
-    + Completion status:
-    + Comments: Expand main results summary
+    + Completion status: X
+    + Comments: 
 * Evidence worksheet_02
     + Completion status: X
-    + Comments:
+    + Comments: Fix header formatting.
 * Evidence worksheet_03
     + Completion status:
-    + Comments:
+    + Comments: Missing Evidence worksheet_03
 * Problem Set_01
     + Completion status: X
     + Comments:
 * Problem Set_02
     + Completion status:
-    + Comments: Incomplete
+    + Comments: Incomplete. Fix header formatting.
 * Writing assessment_01
-    + Completion status:
+    + Completion status: X
     + Comments:
 * Additional Readings
     + Completion status:
-    + Comments:  
+    + Comments: Need links.  
 
 ### Data Science
 
@@ -247,17 +247,17 @@ Utilize this space to include a bibliography of any literature you want associat
 
 **Whitman WB, Coleman DC, Wiebe WJ**. 1998. Prokaryotes: The unseen majority. *Proc Natl Acad Sci U S A* 95:6578-6583. [PMC33863](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC33863/)
 
-**Nisbet EG, Sleep NH.** 2003. The habitat and nature of early life. *Nature* 409:1083-1091.  
+**Nisbet EG, Sleep NH.** 2003. The habitat and nature of early life. *Nature* 409:1083-1091. doi: [10.1038/35059210](http://dx.doi.org/10.1038/35059210).  
 
-**Canfield DE, Glazer AE, Falkowski PG.** 2010. The Evolution and Future of Earth’s Nitrogen Cycle. *Science* 330:192-196.  
+**Canfield DE, Glazer AE, Falkowski PG.** 2010. The Evolution and Future of Earth's Nitrogen Cycle. *Science* 330:192-196. doi: [10.1126/science.1186120](https://doi.org/10.1126/science.1186120).  
 
-**Rockström J, Steffen W, Noone K, Persson Å, Chapin FS, Lambin EF, Lenton TM, Scheffer M, Folke C, Schellnhuber HJ, Nykvist B, de Wit CA, Hughes T, van der Leeuw S, Rodhe H, Sörlin S, Snyder PK, Costanza R, Svedin U, Falkenmark M, Karlberg L, Corell RW, Fabry VJ, Hansen J, Walker B, Liverman D, Richardson K, Crutzen P, Foley JA.** 2009. A safe operating space for humanity. *Nature* 461:472-475.  
+**Rockstr�m J, Steffen W, Noone K, Persson �, Chapin FS, Lambin EF, Lenton TM, Scheffer M, Folke C, Schellnhuber HJ, Nykvist B, de Wit CA, Hughes T, van der Leeuw S, Rodhe H, S�rlin S, Snyder PK, Costanza R, Svedin U, Falkenmark M, Karlberg L, Corell RW, Fabry VJ, Hansen J, Walker B, Liverman D, Richardson K, Crutzen P, Foley JA.** 2009. A safe operating space for humanity. *Nature* 461:472-475. doi: [10.1038/461472a](http://dx.doi.org/10.1038/461472a).  
 
 **Schrag DP.** 2012. Geobiology of the Anthropocene, p 425-436. *In* Knoll AH, Canfield DE, Konhauser KO (ed), Fundamentals of Geobiology, 1st ed. Blackwell Publishing Ltd, Oxford, United Kingdom.  
 
-**Falkowski PG, Fenchel T, Delong EF.** 2008. The Microbial Engines That Drive Earth’s Biogeochemical Cycles. *Science* 320:1034-1039.  
+**Falkowski PG, Fenchel T, Delong EF.** 2008. The Microbial Engines That Drive Earth's Biogeochemical Cycles. *Science* 320:1034-1039. doi: [10.1126/science.1153213](http://dx.doi.org/10.1126/science.1153213). 
 
-**Kasting JF, Siefert JL.** 2002. Life and the Evolution of Earth’s Atmosphere. *Science* 296:1066-1068. 
+**Kasting JF, Siefert JL.** 2002. Life and the Evolution of Earth's Atmosphere. *Science* 296:1066-1068. doi: [10.1126/science.1071184](https://doi.org/10.1126/science.1071184).  
 
 # Module 02
 
@@ -265,22 +265,22 @@ Utilize this space to include a bibliography of any literature you want associat
 
 * Evidence worksheet_04
     + Completion status:
-    + Comments:
+    + Comments: Missing Evidence worksheet_04
 * Problem Set_03
-    + Completion status:
+    + Completion status: X
     + Comments:
 * Writing assessment_02
     + CANCELED
 * Additional Readings
     + Completion status:
-    + Comments:
+    + Comments 
 
 ## Remapping the Body of the World
 
-```{r problemset_03, child='Module_02/Problem_set_03.Rmd'}
+```{r evidenceworksheet_04, child='Module_02/Evidence_worksheet_04.Rmd'}
 ```
 
-```{r evidenceworksheet_04, child='Module_02/Evidence_worksheet_04.Rmd'}
+```{r problemset_03, child='Module_02/Problem_set_03.Rmd'}
 ```
 
 ## Module 02 References
@@ -290,10 +290,10 @@ Utilize this space to include a bibliography of any literature you want associat
 ## Module 03 Portfolio Content
 
 * Evidence worksheet_05
-    + Completion status:
-    + Comments:
+    + Completion status: X
+    + Comments: Provide header for Evidence worksheet_05
 * Problem set_04
-    + Completion status:
+    + Completion status: X
     + Comments:
 * Writing Assessment_03
     + Completion status:
@@ -305,10 +305,10 @@ Utilize this space to include a bibliography of any literature you want associat
 ### Project 1
 
 * CATME account setup and survey
-    + Completion status: 
+    + Completion status: X
     + Comments: 
 * CATME interim group assessment
-    + Completion status: 
+    + Completion status: X
     + Comments:
 * Project 1
     + Report (80%): 

@@ -8,7 +8,7 @@ output:
   html_document: default
 ---
 
-### Evidence Worksheet for "Extensive mosaic structures"
+### Evidence Worksheet 05 "Extensive mosaic structures"
 
 #### Part 1 
 ##### Learning Objectives
@@ -52,4 +52,4 @@ output:
 * Based on your reading and discussion notes, explain the meaning and content of the following figure derived from the comparative genomic analysis of three E. coli genomes by Welch et al. Remember that CFT073 is a uropathogenic strain and that EDL933 is an enterohemorrhagic strain. Explain how this study relates to your understanding of ecotype diversity. Provide a definition of ecotype in the context of the human body. Explain why certain subsets of genes in CFT073 provide adaptive traits under your ecological model and speculate on their mode of vertical descent or gene transfer.  
 ![](Module_03/EW_05_Figure.jpg)
 
-The x axis of this figure represents position along the reference MG1655 genome, and the vertical lines off of it represent pathogenicity islands. Those going upwards from the line are those in the CFT073 genome, and those coming out downwards are from the CFT073 genome. The length of the line represents the island size. Thus, it can be seen that though both are pathogenic, they carry many different pathogenicity islands, though they can often be in the same location. In the human body, bacterial ecotypes are essentially equivalent to strains - distinct forms of the species adapted to specific niches, not different enough from each other to warrant being classified as separate species but sufficiently functionally different that they clearly are not the same. It thus relates to ecotype diversity in that it provides a horizontal gene transfer-mediated mechanism for the creation of ecotype diversity, using *E. coli* as a model. 
+The x axis of this figure represents position along the reference MG1655 genome, and the vertical lines off of it represent pathogenicity islands. Those going upwards from the line are those in the CFT073 genome, and those coming out downwards are from the EDL933 genome. The length of the line represents the island size. Thus, it can be seen that though both are pathogenic, they carry many different pathogenicity islands, though they can often be in the same location. In the human body, bacterial ecotypes are essentially equivalent to strains - distinct forms of the species adapted to specific niches, not different enough from each other to warrant being classified as separate species but sufficiently functionally different that they clearly are not the same. It thus relates to ecotype diversity in that it provides a horizontal gene transfer-mediated mechanism for the creation of ecotype diversity, using *E. coli* as a model. 
