@@ -283,8 +283,10 @@ Utilize this space to include a bibliography of any literature you want associat
 ```{r problemset_03, child='Module_02/Problem_set_03.Rmd'}
 ```
 
-## Module 02 References
-Didn't have time, sorry!
+## Module 02 References  
+**Wooley JC, Godzik A, Friedberg I.** 2010. A primer on metagenomics. PLoS Comp Biol **6**:e1000667.  
+**Martinez A, Bradley AS, Waldbauer JR, Summons RE, DeLong EF.** 2007. Proteorhodopsin photosystem gene expression enables photophosphorylation in a heterologous host. Proc Natl Acad Sci U S A **104**:5590-5595.  
+**Madsen EL.** 2005. Identifying microorganisms responsible for ecologically significant biogeochemical processes. Nat Rev **3**:439-446.  
 
 # Module 03
 
