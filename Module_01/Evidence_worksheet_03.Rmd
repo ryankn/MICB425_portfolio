@@ -1,0 +1,33 @@
+---
+title: "Evidence_worksheet_03"
+author: "Ryan Kaien Nah"
+student number: "28632115"
+date: ""
+output:
+  word_document: default
+  html_document: default
+---
+
+### Evidence Worksheet 03 "A safe operating space for humanity"
+
+#### Part 1 
+
+##### General Questions
+* What were the main questions being asked?  
+What kind of planetary boundaries cannot be crossed without causing unacceptable environmental change?
+
+* What were the primary methodological approaches used?  
+A lot of thinking, conjecture, and analysis of previous literature.
+
+* Summarize the main results or findings.  
+The authors propose a climate boundary not based on global temperature change but on atmospheric CO2 and radiative forcing, or the rate of energy change per unit area of the globe as measured at the top of the atmosphere. 
+
+They propose a biodiversity loss boundary of ten times the background rates of extinction as a very preliminary estimate.
+
+As for nitrogen and phosphorus, they suggest the limitation of new reactive nitrogen to 25% of its current value, or about 35 million tonnes of nitrogen per year, and no more than 11 million tonnes of phosphorus per year.
+
+* Do new questions arise from the results?  
+The boundaries need to be validated as well as they are very largely conjecture based on little modelling. Actual simulation of the impact that these limits could have would be beneficial.
+
+* Were there any specific challenges or advantages in understanding the paper (e.g. did the authors provide sufficient background information to understand experimental logic, were methods explained adequately, were any specific assumptions made, were conclusions justified based on the evidence, were the figures or tables useful and easy to understand)?  
+Not really, I found the paper pretty straightforward. (but very hard to put into the context of these questions)

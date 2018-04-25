@@ -1,0 +1,27 @@
+---
+title: "Project 01 self-assessment of contributions"
+subtitle: "2018 Term 2 - MICB425"
+output: html_document
+---
+To facilitate group assessment, please indicate your contributions to the following aspects of your final group reports. You should provide short statements under the headers relevant to your work. For example, you could specify that you "wrote the first draft", "wrote the code to accomplish X figure or result", "troubleshot code", "interpreted results", etc.
+
+Include **separate** completed versions of this document for Project 1 **and** Project 2 in your portfolio repo; they do not need to be incorporated into the final knit portfolio html.
+
+## Introduction
+### Editing
+Edited the introduction.
+
+## Methods
+### Editing
+Edited the methods.
+
+## Results
+### Anaysis 
+Ran all of the TreeSAPP analysis, with some troubleshooting with Jack. Some of the R analysis was subsequently done by me, but I can't quite remember which because it was so long ago. Ryan probably revised them anyhow.
+
+### Figures
+Generated initial iTOL figures, which Judy based all subsequent ones from.
+
+## Discussion
+### Editing
+Edited the discussion.

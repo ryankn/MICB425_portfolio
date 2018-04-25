@@ -236,8 +236,8 @@ The sheer abundance of prokaryotic life lends itself to great genetic diversity,
 ```{r problemset_02, child='Module_01/Problem_set_02.Rmd'}
 ```
 
-### Evidence Worksheet 03
-On one of the 3 papers for debate - Rockstrom, evidence for anthropocene, safe operating space for humanity
+```{r evidenceworksheet_03, child='Module_01/Evidence_worksheet_03.Rmd'}
+```
 
 ```{r writingassignment_01, child='Module_01/Writing_assignment_01.Rmd'}
 ```
@@ -251,7 +251,7 @@ Utilize this space to include a bibliography of any literature you want associat
 
 **Canfield DE, Glazer AE, Falkowski PG.** 2010. The Evolution and Future of Earth's Nitrogen Cycle. *Science* 330:192-196. doi: [10.1126/science.1186120](https://doi.org/10.1126/science.1186120).  
 
-**Rockström J, Steffen W, Noone K, Persson Å, Chapin FS, Lambin EF, Lenton TM, Scheffer M, Folke C, Schellnhuber HJ, Nykvist B, de Wit CA, Hughes T, van der Leeuw S, Rodhe H, Sörlin S, Snyder PK, Costanza R, Svedin U, Falkenmark M, Karlberg L, Corell RW, Fabry VJ, Hansen J, Walker B, Liverman D, Richardson K, Crutzen P, Foley JA.** 2009. A safe operating space for humanity. *Nature* 461:472-475. doi: [10.1038/461472a](http://dx.doi.org/10.1038/461472a).  
+**Rockstr?m J, Steffen W, Noone K, Persson ?, Chapin FS, Lambin EF, Lenton TM, Scheffer M, Folke C, Schellnhuber HJ, Nykvist B, de Wit CA, Hughes T, van der Leeuw S, Rodhe H, S?rlin S, Snyder PK, Costanza R, Svedin U, Falkenmark M, Karlberg L, Corell RW, Fabry VJ, Hansen J, Walker B, Liverman D, Richardson K, Crutzen P, Foley JA.** 2009. A safe operating space for humanity. *Nature* 461:472-475. doi: [10.1038/461472a](http://dx.doi.org/10.1038/461472a).  
 
 **Schrag DP.** 2012. Geobiology of the Anthropocene, p 425-436. *In* Knoll AH, Canfield DE, Konhauser KO (ed), Fundamentals of Geobiology, 1st ed. Blackwell Publishing Ltd, Oxford, United Kingdom.  
 
@@ -284,6 +284,7 @@ Utilize this space to include a bibliography of any literature you want associat
 ```
 
 ## Module 02 References
+Didn't have time, sorry!
 
 # Module 03
 
@@ -322,11 +323,15 @@ Utilize this space to include a bibliography of any literature you want associat
 ```{r evidenceworksheet_05, child='Module_03/Evidence_worksheet_05.Rmd'}
 ```
 
+```{r writingassignment_03, child='Module_03/Writing_assignment_03.Rmd'}
+```
 
 ## Project 1
+See .Rmd and knitted .html in Module_03 directory.
 
 ## Module 03 References
-    
+Didn't have time, sorry!
+
 # Module 04
 
 ## Module 04 Portfolio Content
@@ -338,3 +343,6 @@ Utilize this space to include a bibliography of any literature you want associat
 * Project 2
     + Report (80%): 
     + Participation (20%):
+    
+## Project 2
+See .Rmd and knitted .html in Module_04/Markers directory.

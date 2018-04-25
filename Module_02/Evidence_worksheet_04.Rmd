@@ -20,17 +20,27 @@ output:
 
 
 #### General Questions
-* What were the main questions being asked?
+* What were the main questions being asked?  
+Can light driven ATP synthesis be transferred to a heterologous bacterium in a single genetic event?  
+“To further characterize PR photosystem structure and function.”
+
+* What were the primary methodological approaches used?  
+-Screen for PR-containing clones on retinal-containing LB agar plating medium, by looking for red or orange pigmentation.  
+-They found two clones they suspected to have the PR photosystem  
+-The full DNA sequence of the two putative PR photosystem containing fosmids was obtained by sequencing a collection of transposon-insertion clones  
+-They analyzed different transposon insertion mutants and looked at the accumulations of intermediates to deduce functions.  
+→ This was done using cell pigmentation and HPLC pigment analyses   
+-They measured pH to determine whether the fosmids independently expressed a functional PR with light-activated proton-translocating activity  
 
 
-* What were the primary methodological approaches used?
+* Summarize the main results or findings.  
+Two fosmids were identified that contained the genes that are necessary and sufficient for proteorhodopsin based phototrophy. These were cloned into *E. coli* cells and both exterior pH and interior ATP concentration were shown to change when the *E. coli* cells were exposed to light. Further, they showed that these fosmids contained genes sufficient to produce retinol (PR cofactor) as long as the cells already produced the intermediate FPP, which e. coli and many other bacteria do. Copy number of the genes showed a difference in phenotypic identification. The clones also had high similarity to other PR-containing BAC clones from Alphaproteobacteria from the Mediterranean and Red Seas. 
 
+* Do new questions arise from the results?  
+-How much variation in this grouping of genes is there naturally?  
+-Are retinal pathways usually close to the PR gene? Are they transferred together as a rule?  
+-Are these genes (retinol pathway+PR) usually located on a plasmid or integrated into the bacterial genome in natural communities  
+-expect to see this gene set distributed across a lot of phyla? 
 
-* Summarize the main results or findings. 
-
-
-* Do new questions arise from the results?
-
-
-* Were there any specific challenges or advantages in understanding the paper (e.g. did the authors provide sufficient background information to understand experimental logic, were methods explained adequately, were any specific assumptions made, were conclusions justified based on the evidence, were the figures or tables useful and easy to understand)? 
-
+* Were there any specific challenges or advantages in understanding the paper (e.g. did the authors provide sufficient background information to understand experimental logic, were methods explained adequately, were any specific assumptions made, were conclusions justified based on the evidence, were the figures or tables useful and easy to understand)?  
+If not for the fact that this paper was done as a group, it would've been entirely incoherent to me. It was very difficult to understand. 

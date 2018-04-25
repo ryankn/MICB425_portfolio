@@ -22,7 +22,7 @@ output: html_document
 #### References
 1.  **Nisbet EG, Sleep NH.** 2003. The habitat and nature of early life. *Nature* 409:1083-1091. 
 2.  **Canfield DE, Glazer AE, Falkowski PG.** 2010. The Evolution and Future of Earth's Nitrogen Cycle. *Science* 330:192-196. 
-3.  **Rockström J, Steffen W, Noone K, Persson Å, Chapin FS, Lambin EF, Lenton TM, Scheffer M, Folke C, Schellnhuber HJ, Nykvist B, de Wit CA, Hughes T, van der Leeuw S, Rodhe H, Sörlin S, Snyder PK, Costanza R, Svedin U, Falkenmark M, Karlberg L, Corell RW, Fabry VJ, Hansen J, Walker B, Liverman D, Richardson K, Crutzen P, Foley JA.** 2009. A safe operating space for humanity. *Nature* 461:472-475. 
+3.  **RockstrÃ¶m J, Steffen W, Noone K, Persson Ã…, Chapin FS, Lambin EF, Lenton TM, Scheffer M, Folke C, Schellnhuber HJ, Nykvist B, de Wit CA, Hughes T, van der Leeuw S, Rodhe H, SÃ¶rlin S, Snyder PK, Costanza R, Svedin U, Falkenmark M, Karlberg L, Corell RW, Fabry VJ, Hansen J, Walker B, Liverman D, Richardson K, Crutzen P, Foley JA.** 2009. A safe operating space for humanity. *Nature* 461:472-475. 
 4.  **Schrag DP.** 2012. Geobiology of the Anthropocene, p 425-436. *In* Knoll AH, Canfield DE, Konhauser KO (ed), Fundamentals of Geobiology, 1st ed. Blackwell Publishing Ltd, Oxford, United Kingdom.
 5.  **Falkowski PG, Fenchel T, Delong EF.** 2008. The Microbial Engines That Drive Earth's Biogeochemical Cycles. *Science* 320:1034-1039. 
 6.  **Kasting JF, Siefert JL.** 2002. Life and the Evolution of Earth's Atmosphere. *Science* 296:1066-1068. 

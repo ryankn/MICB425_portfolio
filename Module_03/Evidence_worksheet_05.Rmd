@@ -20,23 +20,23 @@ output:
 
 
 ##### General Questions
-* What were the main questions being asked?
+* What were the main questions being asked?  
+How different are the 3 *E. coli* genomes, MG1655, CFT073, and EDL933?
 
 
-
-* What were the primary methodological approaches used?
-
-
-
-* Summarize the main results or findings. 
+* What were the primary methodological approaches used?  
+Sanger sequencing of random clones of the CFT073 genome followed by genome assembly and annotation by SEQMANII and MAGPIE respectively. Then GLIMMER to figure out ORFs, homolog identification (by BLAST), and comparison of orthology.
 
 
+* Summarize the main results or findings.  
+Only 39.2% of the combined (nonredundant) set of proteins are common to all three strains. The pathogen genomes are as different from each other as each pathogen is from the benign strain. 
 
-* Do new questions arise from the results?
 
+* Do new questions arise from the results?  
+What do these dramatic differences entail for genetic diversity and inter-strain variation beyond just E. coli? Do all strains display this same kind of variation?
+ 
 
-
-* Were there any specific challenges or advantages in understanding the paper (e.g. did the authors provide sufficient background information to understand experimental logic, were methods explained adequately, were any specific assumptions made, were conclusions justified based on the evidence, were the figures or tables useful and easy to understand)? 
+* Were there any specific challenges or advantages in understanding the paper (e.g. did the authors provide sufficient background information to understand experimental logic, were methods explained adequately, were any specific assumptions made, were conclusions justified based on the evidence, were the figures or tables useful and easy to understand)?  
 
 #### Part 2
 
